@@ -1,20 +1,19 @@
-# Taller 4: Consumo de API Rick and Morty con Ionic y React
+# Taller 4
 
-**Autor:** Daniel Serey Aravena  
-**Carrera:** Ingeniería en Informática, Pontificia Universidad Católica de Valparaíso (PUCV)
+**Nombre:** Daniel Serey Aravena  
 
-## 📝 Descripción de la Tarea
-Este repositorio contiene la resolución del **Taller 4** de Ingeniería Web/Mobile. La aplicación fue construida utilizando **Ionic** y **React** con el objetivo de consumir la API pública de "The Rick and Morty" y mostrar la información de sus personajes.
+## Descripción de la Tarea
+Se muestra todo el taller 4 orientado a la api de Rick and Morty
 
-## ⚙️ Proceso de Desarrollo y Lógica Implementada
-Para cumplir con los requerimientos solicitados, se implementaron las siguientes características en el archivo principal (`PostsPage.tsx`):
+## Proceso de Desarrollo y Lógica Implementada
+Se cumplió todo lo requerido y se implemento en el archivo principal (`PostsPage.tsx`):
 
-1. **Gestión de Estados (`useState`):**
+1. **Gestión de Estados (useState):**
    - `personajes`: Almacena el arreglo de datos obtenidos desde la API.
    - `cargando`: Estado booleano para controlar el indicador visual mientras se espera la respuesta HTTP.
    - `error`: Captura y almacena mensajes en caso de que la petición falle.
 
-2. **Consumo de API y Promesas (`fetch`):**
+2. **API y (`fetch`):**
    - Se configuró el evento `onClick` en el botón principal para ejecutar la función de carga.
    - Se realizó la petición HTTP GET asíncrona a `https://rickandmortyapi.com/api/character`.
    - Se manejó el ciclo de vida de la petición utilizando `.then()` para procesar el JSON, `.catch()` para los errores y `.finally()` para detener el estado de carga.
@@ -24,12 +23,10 @@ Para cumplir con los requerimientos solicitados, se implementaron las siguientes
    - Se utilizó el método `.map()` de React para iterar sobre el estado de los personajes y generar dinámicamente un `<IonCard>` por cada uno, mostrando su ID, imagen, nombre y especie (utilizando la propiedad `key` para optimizar el renderizado).
    - Se aplicó CSS personalizado (`PostsPage.css`) utilizando `display: grid` para organizar correctamente las tarjetas en la vista.
 
-## 📸 Capturas de Pantalla de la Web Generada
-
-*(A continuación se muestra la interfaz resultante de la aplicación)*
+## Capturas de Pantalla 
 
 ### 1. Estado Inicial y de Carga
-![Estado de carga](./captura-1.png)
+![Estado de carga](https://imgur.com/a/XKXMAB4)
 
 ### 2. Despliegue de Personajes
-![Personajes de Rick and Morty](./captura-2.png)
+![Personajes de Rick and Morty](https://imgur.com/a/KamIaf6)
