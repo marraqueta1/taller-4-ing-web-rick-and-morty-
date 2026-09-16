@@ -26,7 +26,7 @@ Se cumplió todo lo requerido y se implemento en el archivo principal (`PostsPag
 ## Capturas de Pantalla 
 
 ### 1. Estado Inicial y de Carga
-![Estado de carga](https://imgur.com/a/XKXMAB4)
+https://imgur.com/a/XKXMAB4
 
 ### 2. Despliegue de Personajes
-![Personajes de Rick and Morty](https://imgur.com/a/KamIaf6)
+https://imgur.com/a/KamIaf6
